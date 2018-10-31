@@ -63,5 +63,5 @@ function togglers(){
  let navTab=document.querySelector('.navigation-tab');
 
  function clickFunction(){
-     navTab.classList.toggle('hide');
+    navTab.classList.toggle('hide');
  }
