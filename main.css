@@ -48,6 +48,7 @@ nav{
     border-width: 0.4vh;
     margin: auto;
 }
+
 .wide-screen{
     display: none;
 }
@@ -124,7 +125,7 @@ footer{
     padding: 0.1%;
 }
 
- @media screen and (min-width: 1019px) {
+ @media screen and (min-width: 425px) {
     .about-us {
         width: 40% !important;
         padding: 0 4%;
@@ -164,7 +165,7 @@ footer{
     }
 
 } 
-@media screen and (min-width: 1270px) {
+@media screen and (min-width: 900px) {
   .nav-icon{
       display: none;
   }
@@ -197,7 +198,7 @@ footer{
     }
     .about-us-text {
         display: block;
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
     .about-us-content {
         font-size: 1vw;
@@ -256,5 +257,20 @@ article {
 }
 .colorful{
     background-color:rgb(241, 241, 241);
+}
+.patners{
+    background-image: url(./images/patners.PNG);
+    background-position: center;
+    background-size: cover;
+    height: 13vw;
+    background-repeat: no-repeat;
+}
+.phantom{
+    width: 6% !important;
+}
+.patners-logo{
+    padding: 4% 0 3% 12%;
+    width: 10%;
+    align-items: center;
 }
 } 
