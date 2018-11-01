@@ -70,7 +70,7 @@ function aboutus(){
     window.scrollBy(0, 300);
 }
 function ourservices(){
-    window.scrollBy(0, 1200); 
+    window.scrollBy(0, 1000); 
 }
 function contactus(){
     window.scrollBy(0, 3200);
