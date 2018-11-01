@@ -65,3 +65,14 @@ function togglers(){
  function clickFunction(){
     navTab.classList.toggle('hide');
  }
+
+function aboutus(){
+    window.scrollBy(0, 300);
+}
+function ourservices(){
+    window.scrollBy(0, 1200); 
+}
+function contactus(){
+    window.scrollBy(0, 3200);
+}
+
