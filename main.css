@@ -12,14 +12,12 @@ nav{
     width: 20%;
 }
 .motto{
-    position: absolute;
     text-align: center;
     font-family: 'Montserrat';
     font-size: 5vw;
-    padding: 50% 20% 0 20%;
+    padding: 20% 20% 0 20%;
     font-weight: bolder;
     text-shadow: 1px black;
-    z-index: -1;
 }
 .nav-icon{
     width: 8%;
@@ -28,6 +26,8 @@ nav{
 }
 .front-figure-container{
     background-image: url('./images/sateliteimage.jpg');
+    height: 50vw;
+    color: white;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -124,6 +124,22 @@ footer{
     font-size: 2vw;
     padding: 0.1%;
 }
+.patners{
+    display: block;
+    background-image: url(./images/patners.PNG);
+    background-position: center;
+    background-size: cover;
+    height: 13vw;
+    background-repeat: no-repeat;
+}
+.phantom{
+    width: 6% !important;
+}
+.patners-logo{
+    padding: 3% 0 3% 12%;
+    width: 10%;
+    align-items: center;
+}
 
  @media screen and (min-width: 425px) {
     .about-us {
@@ -148,9 +164,9 @@ footer{
         width: 95%;
         padding-left: 3%;
     }
-    .motto{
+    .motto {
         font-size: 3vw;
-        padding: 40% 30% 0 30%;
+        padding: 30% 30% 0 30%;
     }
     .our-services{
         display: none;
@@ -162,6 +178,14 @@ footer{
     .navigation-tab{
         margin: 19% 0 0 20%;
         height: 100%;
+    }
+    .patners{
+        display: block;
+        background-image: url(./images/patners.PNG);
+        background-position: center;
+        background-size: cover;
+        height: 13vw;
+        background-repeat: no-repeat;
     }
 
 } 
@@ -182,7 +206,7 @@ footer{
     padding-left: 0;
 }
 .motto{
-    display: none;
+    
 }
 .wide-screen-blank{
     display: none;
@@ -258,7 +282,8 @@ article {
 .colorful{
     background-color:rgb(241, 241, 241);
 }
-.patners{
+/* .patners{
+    display: block;
     background-image: url(./images/patners.PNG);
     background-position: center;
     background-size: cover;
@@ -272,5 +297,16 @@ article {
     padding: 4% 0 3% 12%;
     width: 10%;
     align-items: center;
+} */
+.front-figure-container{
+    height: 30vw;
+} 
+.motto{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    font-size: 3vw;
+    padding: 14% 30% 0 30%;
+    color: white;
 }
 } 
