@@ -25,6 +25,7 @@ nav{
     padding: 4%;
 }
 .front-figure-container{
+    margin-top: -3%;
     background-image: url('./images/sateliteimage.jpg');
     height: 50vw;
     color: white;
@@ -300,6 +301,7 @@ article {
 } */
 .front-figure-container{
     height: 30vw;
+    margin-top: -3%;
 } 
 .motto{
     text-align: center;
