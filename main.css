@@ -111,10 +111,8 @@ li{
 }
 
 footer{
-    background-image: url('./images/imageedit_1_4964550759.png');
     width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color:#ff6013;
     height: 15vw;
     text-align: center;
 }
@@ -127,9 +125,7 @@ footer{
 }
 .patners{
     display: block;
-    background-image: url(./images/patners.PNG);
-    background-position: center;
-    background-size: cover;
+    background-color: #d3d3d3;
     height: 13vw;
     background-repeat: no-repeat;
 }
@@ -182,9 +178,7 @@ footer{
     }
     .patners{
         display: block;
-        background-image: url(./images/patners.PNG);
-        background-position: center;
-        background-size: cover;
+        background-color: #d3d3d3;
         height: 13vw;
         background-repeat: no-repeat;
     }
