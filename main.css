@@ -115,13 +115,20 @@ footer{
     background-color:#ff6013;
     height: 15vw;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 .footer-details{
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px #080808;
     font-family: 'Source Sans Pro';
-    font-size: 2vw;
-    padding: 0.1%;
+    font-size: 1.3vw;
+}
+.first-footer,.second-footer{
+    width: 48%;
+}
+.first-footer{
+    border-right: 4px solid #d3d3d3;
 }
 .patners{
     display: block;
@@ -236,7 +243,7 @@ footer{
     border: 2px solid rgb(250, 88, 88);
     width: 20% !important;
     padding: 0 3%;
-    margin: 2.5%;
+    margin: 3.4%;
 }
 .services-color{
     background-color: rgb(226, 226, 200);
